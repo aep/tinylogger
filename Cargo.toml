@@ -1,0 +1,12 @@
+[package]
+name = "tinylogger"
+version = "0.1.0"
+authors = ["Arvid E. Picciani <aep@exys.org>"]
+edition = "2018"
+description = "env_logger semi-compatible logger but much much smaller"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/aep/tinylogger"
+
+
+[dependencies]
+log = "0.4"
