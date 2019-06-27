@@ -1,6 +1,6 @@
 [package]
 name = "tinylogger"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Arvid E. Picciani <aep@exys.org>"]
 edition = "2018"
 description = "env_logger semi-compatible logger but much much smaller"

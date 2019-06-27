@@ -26,7 +26,7 @@ impl log::Log for TinyLogger {
 
     fn log(&self, record: &Record) {
         if self.enabled(record.metadata()) {
-            println!("{:<5} {} {}", record.level(), record.metadata().target(), record.args());
+            eprintln!("{:<5} {} {}", record.level(), record.metadata().target(), record.args());
         }
     }
 
